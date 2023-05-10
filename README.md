@@ -6,6 +6,6 @@
 *-Press [New]*  
 *-Input repository name "JSON"*  
 *-Press on checkbox "Add a README file"*  
--Press [Create a repository]  
+*-Press [Create a repository]* 
 
 
