@@ -1,2 +1,3 @@
-# git_homework_1
-training of creating and save repositories 
+# #1 GIT Homework  
+*Here I learned how to create repositories, synchronize external and internal repositories and push file to them:*
+
