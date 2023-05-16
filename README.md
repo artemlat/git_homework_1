@@ -168,6 +168,48 @@ $ cat > skills.json
 "fifth skill": "Devtools"
 }
 ```
+### 15. Send 2 files to the external repository:
+
+```
+artem@DESKTOP-4FHC137 MINGW64 /d/github/JSON (main)
+$ git add .
+warning: LF will be replaced by CRLF in preferences.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in skills.json.
+The file will have its original line endings in your working directory
+
+artem@DESKTOP-4FHC137 MINGW64 /d/github/JSON (main)
+$ git commit -m 'add 2 files: skills.json and preferenses.json'
+[main a29f452] add 2 files: skills.json and preferenses.json
+ 2 files changed, 14 insertions(+)
+ create mode 100644 preferences.json
+ create mode 100644 skills.json
+
+artem@DESKTOP-4FHC137 MINGW64 /d/github/JSON (main)
+$ git push
+Enter passphrase for key '/c/Users/artem/.ssh/id_rsa':
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 619 bytes | 619.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:artemlat/JSON.git
+   f20e461..a29f452  main -> main
+```
+
+### 16. On web interface create a file "bug_report.json":
+
+*Go to web JSON repository*  
+*Press [Add file], [Create new file]*  
+*Input name of the file `bug_report.json`*  
+
+### 17. Save changes on web interface:  
+
+*Press [Commit changes]*
+
+
+
 
 
 
