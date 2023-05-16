@@ -208,6 +208,34 @@ To github.com:artemlat/JSON.git
 
 *Press [Commit changes]*
 
+### 18. On web interface change the file "bug_report.json" - add bug report in it using JSON format:
+
+*Enter a file "bug_report.json" on web interface*  
+*Press [Edit this file]*
+
+```
+{
+  "id": 1,
+  "environment": "Windows 10, Chrome 112",
+  "summary": "No icon of the quote in the widget on the main screen",
+  "steps": [
+    "1. open the app",
+    "2. tap on the widget banner",
+    "3. tap on [Confirm]",
+    "4. collapse the app",
+    "5. go to the main screen"
+  ],
+  "ER": "Quote icon is displayed in the widget",
+  "AR": "Quote icon is displayed in the widget",
+  "attachments": "link" 
+}
+```
+### 19. Save changes on web interface:
+
+*Press [Commit changes]*  
+
+
+
 
 
 
