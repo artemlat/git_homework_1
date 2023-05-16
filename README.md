@@ -125,7 +125,7 @@ artem@DESKTOP-4FHC137 MINGW64 /d/github/JSON (main)
 $ touch preferences.json
 ```
 
-### 13. Add to file "preferences.json" information about my preferences (favourite film, favourite series, favourite food, favourite season, country wanted to visit):
+### 13. Add to file "preferences.json" information about my preferences (favourite film, favourite series, favourite food, favourite season, country wanted to visit) using JSON format:
 
 ```
 artem@DESKTOP-4FHC137 MINGW64 /d/github/JSON (main)
@@ -152,7 +152,26 @@ $ vim preferences.json
 
 *Press `Enter`*
 
-### 14. 
+### 14. Create a file "skills.json", add information about skills that will be learned on the course using JSON format:
+
+```
+artem@DESKTOP-4FHC137 MINGW64 /d/github/JSON (main)
+$ cat >> skills.json
+
+artem@DESKTOP-4FHC137 MINGW64 /d/github/JSON (main)
+$ cat > skills.json
+{
+"first skill": "testing theory",
+"second skill": "git, bash commands",
+"third skill": "Postman",
+"fourth skill": "SQL",
+"fifth skill": "Devtools"
+}
+```
+
+
+
+
 
 
 
