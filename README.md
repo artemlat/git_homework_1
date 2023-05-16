@@ -71,6 +71,35 @@ To github.com:artemlat/JSON.git
    
 ### 10. Update the content of the file “new.json” - add information about myself (SNM, age, pets quantity, future wish salary) using JSON format:
 
+```
+artem@DESKTOP-4FHC137 MINGW64 /d/github/JSON (main)
+$ vim new.json
+```
+*Press `Enter`*  
+*Press `INS`*
+
+```
+{
+"SNM": "Latyshev Artem Alexandrovich",
+"age": 26,
+"pets_quantity": 1,
+"future_wish_salary": 1000
+}
+```
+
+*Press `ESC`*
+
+```
+:wq
+```
+
+*Press `Enter`*
+
+### 11. Send all changes to the external repository:
+
+```
+
+
 
 
 
