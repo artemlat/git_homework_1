@@ -263,6 +263,74 @@ Fast-forward
 *-Input repository name "XML"*  
 *-Press on checkbox "Add a README file"*  
 *-Press [Create a repository]* 
+
+### 22. Clone the repository "JSON" to the local computer:
+
+*-Press [Code]*    
+*-Copy link git@github.com:artemlat/XML.git*  
+*-Go to the local directory where local repository must be placed*  
+*-Open Git Bash*
+
+```
+artem@DESKTOP-4FHC137 MINGW64 /d/github
+$ git clone git@github.com:artemlat/XML.git
+Cloning into 'XML'...
+Enter passphrase for key '/c/Users/artem/.ssh/id_rsa':
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+```
+
+### 23. In the local "XML" create a file “new.xml”:
+
+```
+artem@DESKTOP-4FHC137 MINGW64 /d/github
+$ cd XML/
+
+artem@DESKTOP-4FHC137 MINGW64 /d/github/XML (main)
+$ touch new.xml
+```
+
+### 24. Add the file “new.xml” to git:
+
+```
+artem@DESKTOP-4FHC137 MINGW64 /d/github/XML (main)
+$ git add new.xml
+```
+
+### 25. Commit the file “new.xml”:
+
+```
+artem@DESKTOP-4FHC137 MINGW64 /d/github/XML (main)
+$ git commit -m 'new.xml add'
+[main f108225] new.xml add
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 new.xml
+```
+
+### 26. Send the file “new.xml” to the external repository:
+
+```
+artem@DESKTOP-4FHC137 MINGW64 /d/github/XML (main)
+$ git push
+Enter passphrase for key '/c/Users/artem/.ssh/id_rsa':
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 270 bytes | 270.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:artemlat/XML.git
+   74735d7..f108225  main -> main
+```
+
+### 27. Update the content of the file “new.xml” - add information about myself (SNM, age, pets quantity, future wish salary) using XML format:
+
+
+
+
+
  
  
 
