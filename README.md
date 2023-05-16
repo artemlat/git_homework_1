@@ -98,7 +98,27 @@ $ vim new.json
 ### 11. Send all changes to the external repository:
 
 ```
+artem@DESKTOP-4FHC137 MINGW64 /d/github/JSON (main)
+$ git commit -am 'updated new.json'
+warning: LF will be replaced by CRLF in new.json.
+The file will have its original line endings in your working directory
+[main f20e461] updated new.json
+ 1 file changed, 6 insertions(+)
 
+artem@DESKTOP-4FHC137 MINGW64 /d/github/JSON (main)
+$ git push
+Enter passphrase for key '/c/Users/artem/.ssh/id_rsa':
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 369 bytes | 369.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:artemlat/JSON.git
+   681c44d..f20e461  main -> main
+```
+
+### 12. 
 
 
 
