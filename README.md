@@ -1,6 +1,6 @@
 # #1 GIT Homework  
 *Here I learned how to create repositories, synchronize external and internal repositories and push file to them:*
-### 4. Create an external repository named "JSON".
+### 4. Create an external repository named "JSON":
 
 *-Go to https://github.com/*  
 *-Press [New]*  
@@ -75,8 +75,8 @@ To github.com:artemlat/JSON.git
 artem@DESKTOP-4FHC137 MINGW64 /d/github/JSON (main)
 $ vim new.json
 ```
-*Press `Enter`*  
-*Press `INS`*
+*-Press `Enter`*  
+*-Press `INS`*
 
 ```
 {
@@ -87,13 +87,13 @@ $ vim new.json
 }
 ```
 
-*Press `ESC`*
+*-Press `ESC`*
 
 ```
 :wq
 ```
 
-*Press `Enter`*
+*-Press `Enter`*
 
 ### 11. Send all changes to the external repository:
 
@@ -132,8 +132,8 @@ artem@DESKTOP-4FHC137 MINGW64 /d/github/JSON (main)
 $ vim preferences.json
 ```
 
-*Press `Enter`*  
-*Press `INS`*
+*-Press `Enter`*  
+*-Press `INS`*
 
 ```
 {
@@ -144,13 +144,13 @@ $ vim preferences.json
 "country wanted to visit": "Norway"
 }
 ```
-*Press `ESC`*
+*-Press `ESC`*
 
 ```
 :wq
 ```
 
-*Press `Enter`*
+*-Press `Enter`*
 
 ### 14. Create a file "skills.json", add information about skills that will be learned on the course using JSON format:
 
@@ -200,18 +200,18 @@ To github.com:artemlat/JSON.git
 
 ### 16. On web interface create a file "bug_report.json":
 
-*Go to web JSON repository*  
-*Press [Add file], [Create new file]*  
-*Input name of the file `bug_report.json`*  
+*-Go to web JSON repository*  
+*-Press [Add file], [Create new file]*  
+*-Input name of the file `bug_report.json`*  
 
 ### 17. Save changes on web interface:  
 
-*Press [Commit changes]*
+*-Press [Commit changes]*
 
 ### 18. On web interface change the file "bug_report.json" - add bug report in it using JSON format:
 
-*Enter a file "bug_report.json" on web interface*  
-*Press [Edit this file]*
+*-Enter a file "bug_report.json" on web interface*  
+*-Press [Edit this file]*
 
 ```
 {
@@ -232,11 +232,11 @@ To github.com:artemlat/JSON.git
 ```
 ### 19. Save changes on web interface:
 
-*Press [Commit changes]*
+*-Press [Commit changes]*
 
 ### 20. Synchronize external and local JSON repository:
 
-*Go to local JSON repository and open bash console*  
+*-Go to local JSON repository and open bash console*  
 
 ```
 artem@DESKTOP-4FHC137 MINGW64 /d/github/JSON (main)
@@ -255,6 +255,14 @@ Fast-forward
  1 file changed, 16 insertions(+)
  create mode 100644 bug_report.json
  ```
+ 
+ ### 21. Create an external repository named "XML":
+ 
+*-Go to https://github.com/*  
+*-Press [New]*  
+*-Input repository name "XML"*  
+*-Press on checkbox "Add a README file"*  
+*-Press [Create a repository]* 
  
  
 
