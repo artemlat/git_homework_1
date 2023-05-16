@@ -232,7 +232,32 @@ To github.com:artemlat/JSON.git
 ```
 ### 19. Save changes on web interface:
 
-*Press [Commit changes]*  
+*Press [Commit changes]*
+
+### 20. Synchronize external and local JSON repository:
+
+*Go to local JSON repository and open bash console*  
+
+```
+artem@DESKTOP-4FHC137 MINGW64 /d/github/JSON (main)
+$ git pull
+Enter passphrase for key '/c/Users/artem/.ssh/id_rsa':
+remote: Enumerating objects: 7, done.
+remote: Counting objects: 100% (7/7), done.
+remote: Compressing objects: 100% (5/5), done.
+remote: Total 6 (delta 2), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (6/6), 1.45 KiB | 14.00 KiB/s, done.
+From github.com:artemlat/JSON
+   a29f452..c3211d9  main       -> origin/main
+Updating a29f452..c3211d9
+Fast-forward
+ bug_report.json | 16 ++++++++++++++++
+ 1 file changed, 16 insertions(+)
+ create mode 100644 bug_report.json
+ ```
+ 
+ 
+
 
 
 
