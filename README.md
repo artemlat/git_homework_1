@@ -36,7 +36,24 @@ artem@DESKTOP-4FHC137 MINGW64 /d/github/JSON (main)
 $ touch new.json
 ```
 
-### 7. 
+### 7. Add the file “new.json” to git:
+
+```
+artem@DESKTOP-4FHC137 MINGW64 /d/github/JSON (main)
+$ git add new.json
+```
+
+### 8. Commit the file “new.json”:
+
+```
+artem@DESKTOP-4FHC137 MINGW64 /d/github/JSON (main)
+$ git commit -m 'add new.json
+```
+
+### 9. Send the file “new.json” to the external repository:
+
+```
+
 
 
 
