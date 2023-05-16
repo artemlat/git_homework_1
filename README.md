@@ -47,12 +47,29 @@ $ git add new.json
 
 ```
 artem@DESKTOP-4FHC137 MINGW64 /d/github/JSON (main)
-$ git commit -m 'add new.json
+$ git commit -m 'add new.json'
+[main 681c44d] add new.json
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 new.json
 ```
 
 ### 9. Send the file “new.json” to the external repository:
 
 ```
+artem@DESKTOP-4FHC137 MINGW64 /d/github/JSON (main)
+$ git push
+Enter passphrase for key '/c/Users/artem/.ssh/id_rsa':
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 270 bytes | 270.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:artemlat/JSON.git
+   f21de24..681c44d  main -> main
+```
+   
+### 10. Update the content of the file “new.json” - add information about myself (SNM, age, pets quantity, future wish salary) using JSON format:
 
 
 
