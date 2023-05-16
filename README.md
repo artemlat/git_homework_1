@@ -118,7 +118,45 @@ To github.com:artemlat/JSON.git
    681c44d..f20e461  main -> main
 ```
 
-### 12. 
+### 12. Create a file preferences.json:
+
+```
+artem@DESKTOP-4FHC137 MINGW64 /d/github/JSON (main)
+$ touch preferences.json
+```
+
+### 13. Add to file "preferences.json" information about my preferences (favourite film, favourite series, favourite food, favourite season, country wanted to visit):
+
+```
+artem@DESKTOP-4FHC137 MINGW64 /d/github/JSON (main)
+$ vim preferences.json
+```
+
+*Press `Enter`*  
+*Press `INS`*
+
+```
+{
+"favourite film": "Marvel films",
+"favourite series": "The walking dead",
+"favourite food": "meat",
+"favourite season": "Spring",
+"country wanted to visit": "Norway"
+}
+```
+*Press `ESC`*
+
+```
+:wq
+```
+
+*Press `Enter`*
+
+### 14. 
+
+
+
+
 
 
 
