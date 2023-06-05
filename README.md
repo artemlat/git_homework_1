@@ -475,6 +475,68 @@ To github.com:artemlat/XML.git
    a30efca..84abfff  main -> main
 ```
 
+### 34. On web interface create a file "bug_report.xml":
+
+*-Go to web XML repository*  
+*-Press [Add file], [Create new file]*  
+*-Input name of the file `bug_report.xml`*
+
+### 35. Save changes on web interface:  
+
+*-Press [Commit changes]*
+
+### 36. On web interface change the file "bug_report.xml" - add bug report in it using XML format:
+
+*-Enter a file "bug_report.xml" on web interface*  
+*-Press [Edit this file]*
+
+```
+<bug_report>
+  <id>1</id>
+  <environment>Windows 10, Chrome 112</environment>
+  <summary>No icon of the quote in the widget on the main screen</summary>
+  <steps>
+    <step1>open the app</step1>
+    <step2>tap on the widget banner</step2>
+    <step3>tap on [Confirm]</step3>
+    <step4>collapse the app</step4>
+    <step5> go to the main screen</step5>
+  </steps>
+  <ER>Quote icon is displayed in the widget</ER>
+  <AR>Quote icon is displayed in the widget</AR>
+  <attachments>link</attachments>
+</bug_report>
+```
+
+### 37. Save changes on web interface:
+
+*-Press [Commit changes]*
+
+### 38. Synchronize external and local JSON repository:
+
+*-Go to local XML repository and open bash console*
+
+```
+artem@DESKTOP-4FHC137 MINGW64 /d/github/XML (main)
+$ git pull
+Enter passphrase for key '/c/Users/artem/.ssh/id_rsa':
+remote: Enumerating objects: 7, done.
+remote: Counting objects: 100% (7/7), done.
+remote: Compressing objects: 100% (5/5), done.
+remote: Total 6 (delta 2), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (6/6), 1.48 KiB | 9.00 KiB/s, done.
+From github.com:artemlat/XML
+   84abfff..4dffa14  main       -> origin/main
+Updating 84abfff..4dffa14
+Fast-forward
+ bug_report.xml | 15 +++++++++++++++
+ 1 file changed, 15 insertions(+)
+ create mode 100644 bug_report.xml
+```
+
+
+
+
  
 
 
