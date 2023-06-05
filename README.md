@@ -351,7 +351,7 @@ $ vim new.xml
 
 *-Press `Enter`*
 
-28. Send all changes to the external repository:
+### 28. Send all changes to the external repository:
 
 ```
 artem@DESKTOP-4FHC137 MINGW64 /d/github/XML (main)
@@ -372,7 +372,125 @@ Writing objects: 100% (3/3), 385 bytes | 385.00 KiB/s, done.
 Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
 To github.com:artemlat/XML.git
    f108225..a30efca  main -> main
+
 ```
+
+### 29. Create a file preferences.xml:
+
+```
+artem@DESKTOP-4FHC137 MINGW64 /d/github/XML (main)
+$ touch preferences.xml
+```
+
+### 30. Add to file "preferences.xml" information about my preferences (favourite film, favourite series, favourite food, favourite season, country wanted to visit) using XML format:
+
+```
+artem@DESKTOP-4FHC137 MINGW64 /d/github/JSON (main)
+$ vim preferences.json
+```
+
+*-Press `Enter`*  
+*-Press `INS`*
+
+```
+<preferences>
+        <favourite_film>Marvel films</favourite_film>
+        <favourite_series>The walking dead</favourite_series>
+        <favourite_food>meat</favourite_food>
+        <favourit_season>Spring</favourit_season>
+        <country_wanted_to_visit>Norway</country_wanted_to_visit>
+</preferences>
+
+```
+
+*-Press `ESC`*
+
+```
+:wq
+```
+
+*-Press `Enter`*
+
+### 31. Create a file "skills.xml", add information about skills that will be learned on the course using XML format:
+
+```
+artem@DESKTOP-4FHC137 MINGW64 /d/github/XML (main)
+$ touch skills.xml
+
+vim skills.xml
+```
+
+*-Press `Enter`*  
+*-Press `INS`*
+
+```
+<skills>
+        <first_skill>testing theory</first_skill>
+        <second_skill>git, bash commands</second_skill>
+        <third_skill>Postman</third_skill>
+        <fourth_skill>SQL</fourth_skill>
+        <fifth_skill>Devtools</fifth_skill>
+</skills>
+```
+
+*-Press `ESC`*
+
+```
+:wq
+```
+
+*-Press `Enter`*
+
+### 32. Create commit in one line:  
+*We can't create commit in one line in this case because 2 new files "preferences.xml" and "skills.xml" were not added.*
+
+```
+artem@DESKTOP-4FHC137 MINGW64 /d/github/XML (main)
+$ git add .
+warning: LF will be replaced by CRLF in preferences.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in skills.xml.
+The file will have its original line endings in your working directory
+
+artem@DESKTOP-4FHC137 MINGW64 /d/github/XML (main)
+$ git commit -m 'commit 2 xml files'
+[main 84abfff] commit 2 xml files
+ 2 files changed, 20 insertions(+)
+ create mode 100644 preferences.xml
+ create mode 100644 skills.xml
+ ```
+ ### 33. Send 2 files to the external repository:
+ 
+ ```
+ artem@DESKTOP-4FHC137 MINGW64 /d/github/XML (main)
+$ git push
+Enter passphrase for key '/c/Users/artem/.ssh/id_rsa':
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 617 bytes | 617.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:artemlat/XML.git
+   a30efca..84abfff  main -> main
+```
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
  
