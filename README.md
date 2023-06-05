@@ -327,6 +327,58 @@ To github.com:artemlat/XML.git
 
 ### 27. Update the content of the file “new.xml” - add information about myself (SNM, age, pets quantity, future wish salary) using XML format:
 
+```
+artem@DESKTOP-4FHC137 MINGW64 /d/github/XML (main)
+$ vim new.xml
+```
+*-Press `Enter`*  
+*-Press `INS`*
+
+```
+<info>
+    <SNM>Latyshev Artem Alexandrovich</SNM>
+    <age>26</age>
+    <pets_quantity>1</pets_quantity>
+    <future_wish_salary>1000</future_wish_salary>
+</info>
+```
+
+*-Press `ESC`*
+
+```
+:wq
+```
+
+*-Press `Enter`*
+
+28. Send all changes to the external repository:
+
+```
+artem@DESKTOP-4FHC137 MINGW64 /d/github/XML (main)
+$ git commit -am 'update new.xml'
+warning: LF will be replaced by CRLF in new.xml.
+The file will have its original line endings in your working directory
+[main a30efca] update new.xml
+ 1 file changed, 6 insertions(+)
+
+artem@DESKTOP-4FHC137 MINGW64 /d/github/XML (main)
+$ git push
+Enter passphrase for key '/c/Users/artem/.ssh/id_rsa':
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 385 bytes | 385.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:artemlat/XML.git
+   f108225..a30efca  main -> main
+```
+
+
+ 
+
+
+
 
 
 
