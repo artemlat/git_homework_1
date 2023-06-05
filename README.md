@@ -512,7 +512,7 @@ To github.com:artemlat/XML.git
 
 *-Press [Commit changes]*
 
-### 38. Synchronize external and local JSON repository:
+### 38. Synchronize external and local XML repository:
 
 *-Go to local XML repository and open bash console*
 
