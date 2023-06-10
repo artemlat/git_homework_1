@@ -1,5 +1,6 @@
 # #1 GIT Homework  
 *Here I learned how to create repositories, synchronize external and internal repositories and push file to them:*
+
 ### 4. Create an external repository named "JSON":
 
 *-Go to https://github.com/*  
@@ -533,6 +534,16 @@ Fast-forward
  1 file changed, 15 insertions(+)
  create mode 100644 bug_report.xml
 ```
+
+### 39. Create an external repository named "TXT":
+
+*-Go to https://github.com/*  
+*-Press [New]*  
+*-Input repository name "TXT"*  
+*-Press on checkbox "Add a README file"*  
+*-Press [Create a repository]*
+
+### 40. 
 
 
 
