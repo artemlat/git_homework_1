@@ -648,6 +648,171 @@ To github.com:artemlat/TXT.git
    88795f0..9100449  main -> main
 ```
 
+### 47. Create a file preferences.txt:
+
+```
+artem@DESKTOP-4FHC137 MINGW64 /d/github/TXT (main)
+$ touch preferences.txt
+```
+
+### 48. Add to file "preferences.txt" information about my preferences (favourite film, favourite series, favourite food, favourite season, country wanted to visit) using TXT format:
+
+```
+artem@DESKTOP-4FHC137 MINGW64 /d/github/JSON (main)
+$ vim preferences.txt
+```
+
+*-Press `Enter`*  
+*-Press `INS`*
+
+```
+{
+favourite film: Marvel films,
+favourite series: The walking dead,
+favourite food: meat,
+favourite season: Spring,
+country wanted to visit: Norway
+}
+```
+*-Press `ESC`*
+
+```
+:wq
+```
+
+### 49. Create a file "skills.txt", add information about skills that will be learned on the course using TXT format:
+
+```
+artem@DESKTOP-4FHC137 MINGW64 /d/github/TXT (main)
+$ touch skills.txt
+
+artem@DESKTOP-4FHC137 MINGW64 /d/github/TXT (main)
+$ vim skills.txt
+```
+
+*-Press `Enter`*  
+*-Press `INS`*
+
+```
+first skill: testing theory,
+second skill: git, bash commands,
+third skill: Postman,
+fourth skill: SQL,
+fifth skill: Devtools
+```
+
+*-Press `ESC`*
+
+```
+:wq
+```
+
+### 50. Create commit in one line:  
+*We can't create commit in one line in this case because 2 new files "preferences.txt" and "skills.txt" were not added.*
+
+```
+artem@DESKTOP-4FHC137 MINGW64 /d/github/TXT (main)
+$ git add .
+warning: LF will be replaced by CRLF in preferences.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in skills.txt.
+The file will have its original line endings in your working directory
+
+artem@DESKTOP-4FHC137 MINGW64 /d/github/TXT (main)
+$ git commit -am 'add 2 new files'
+[main da03be3] add 2 new files
+ 2 files changed, 10 insertions(+)
+ create mode 100644 preferences.txt
+ create mode 100644 skills.txt
+```
+
+### 51. Send 2 files to the external repository:
+
+```
+artem@DESKTOP-4FHC137 MINGW64 /d/github/TXT (main)
+$ git push
+Enter passphrase for key '/c/Users/artem/.ssh/id_rsa':
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 541 bytes | 541.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:artemlat/TXT.git
+   9100449..da03be3  main -> main
+```
+
+### 52. On web interface create a file "bug_report.txt":
+
+*-Go to web TXT repository*  
+*-Press [Add file], [Create new file]*  
+*-Input name of the file `bug_report.txt`*
+
+### 53. Save changes on web interface:  
+
+*-Press [Commit changes]*
+
+### 54. On web interface change the file "bug_report.txt" - add bug report in it using TXT format:
+
+*-Enter a file "bug_report.xml" on web interface*  
+*-Press [Edit this file]*
+
+```
+bug_report
+  id: 1
+  environment: Windows 10, Chrome 112
+  summary: No icon of the quote in the widget on the main screen
+  steps:
+    step1: open the app
+    step2: tap on the widget banner
+    step3: tap on [Confirm]
+    step4: collapse the app
+    step5: go to the main screen
+  
+  ER: Quote icon is displayed in the widget
+  AR: Quote icon is displayed in the widget
+  attachments: link
+```
+
+### 55. Save changes on web interface:
+
+*-Press [Commit changes]*
+
+### 56. Synchronize external and local XML repository:
+
+*-Go to local XML repository and open bash console*
+
+```
+artem@DESKTOP-4FHC137 MINGW64 /d/github/TXT (main)
+$ git pull
+Enter passphrase for key '/c/Users/artem/.ssh/id_rsa':
+remote: Enumerating objects: 7, done.
+remote: Counting objects: 100% (7/7), done.
+remote: Compressing objects: 100% (5/5), done.
+remote: Total 6 (delta 2), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (6/6), 1.43 KiB | 14.00 KiB/s, done.
+From github.com:artemlat/TXT
+   da03be3..900fb0f  main       -> origin/main
+Updating da03be3..900fb0f
+Fast-forward
+ bug_report.txt | 14 ++++++++++++++
+ 1 file changed, 14 insertions(+)
+ create mode 100644 bug_report.txt
+ ```
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
