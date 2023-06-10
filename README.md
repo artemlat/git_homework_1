@@ -570,7 +570,86 @@ artem@DESKTOP-4FHC137 MINGW64 /d/github/TXT (main)
 $ touch new.txt
 ```
 
-### 42. 
+### 42. Add the file “new.txt” to git:
+
+```
+artem@DESKTOP-4FHC137 MINGW64 /d/github/TXT (main)
+$ git add .
+```
+
+### 43. Commit the file “new.txt”:
+
+```
+artem@DESKTOP-4FHC137 MINGW64 /d/github/TXT (main)
+$ git commit -am 'add file new.txt'
+[main 88795f0] add file new.txt
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 new.txt
+```
+
+### 44. Send the file “new.txt” to the external repository:
+
+```
+artem@DESKTOP-4FHC137 MINGW64 /d/github/TXT (main)
+$ git push
+Enter passphrase for key '/c/Users/artem/.ssh/id_rsa':
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 272 bytes | 272.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:artemlat/TXT.git
+   ed35a3b..88795f0  main -> main
+```
+
+### 45. Update the content of the file “new.txt” - add information about myself (SNM, age, pets quantity, future wish salary) using TXT format:
+
+```
+artem@DESKTOP-4FHC137 MINGW64 /d/github/JSON (main)
+$ vim new.txt
+```
+*-Press `Enter`*  
+*-Press `INS`*
+
+```
+SNM: Latyshev Artem Alexandrovich,
+age: 26,
+pets_quantity: 1,
+future_wish_salary: 1000
+```
+
+*-Press `ESC`*
+
+```
+:wq
+```
+
+### 46. Send all changes to the external repository:
+
+```
+artem@DESKTOP-4FHC137 MINGW64 /d/github/TXT (main)
+$ git commit -am 'update of new.txt'
+warning: LF will be replaced by CRLF in new.txt.
+The file will have its original line endings in your working directory
+[main 9100449] update of new.txt
+ 1 file changed, 4 insertions(+)
+
+artem@DESKTOP-4FHC137 MINGW64 /d/github/TXT (main)
+$ git push
+Enter passphrase for key '/c/Users/artem/.ssh/id_rsa':
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 360 bytes | 360.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:artemlat/TXT.git
+   88795f0..9100449  main -> main
+```
+
+
+
 
 
 
