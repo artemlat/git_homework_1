@@ -543,7 +543,35 @@ Fast-forward
 *-Press on checkbox "Add a README file"*  
 *-Press [Create a repository]*
 
-### 40. 
+### 40. Clone the repository "TXT" to the local computer:
+*-Press [Code]*
+*-Copy link git@github.com:artemlat/TXT.git*
+*-Go to the local directory where local repository must be placed*
+*-Open Git Bash*
+
+```
+artem@DESKTOP-4FHC137 MINGW64 /d/github
+$ git clone git@github.com:artemlat/TXT.git
+Cloning into 'TXT'...
+Enter passphrase for key '/c/Users/artem/.ssh/id_rsa':
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+```
+
+### 41. In the local "TXT" create a file “new.txt”:
+
+```
+artem@DESKTOP-4FHC137 MINGW64 /d/github
+$ cd TXT/
+
+artem@DESKTOP-4FHC137 MINGW64 /d/github/TXT (main)
+$ touch new.txt
+```
+
+### 42. 
+
 
 
 
