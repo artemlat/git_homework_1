@@ -4,14 +4,14 @@
 ### 4. Create an external repository named "JSON":
 
 *-Go to https://github.com/*  
-*-Press [New]*  
+*-Press `New`*  
 *-Input repository name "JSON"*  
 *-Press on checkbox "Add a README file"*  
-*-Press [Create a repository]* 
+*-Press `Create a repository`* 
 
 ### 5. Clone the repository "JSON" to the local computer:
 
-*-Press [Code]*    
+*-Press `Code`*    
 *-Copy link git@github.com:artemlat/JSON.git*  
 *-Go to the local directory where local repository must be placed*  
 *-Open Git Bash*  
@@ -202,17 +202,17 @@ To github.com:artemlat/JSON.git
 ### 16. On web interface create a file "bug_report.json":
 
 *-Go to web JSON repository*  
-*-Press [Add file], [Create new file]*  
+*-Press `Add file`, `Create new file`*  
 *-Input name of the file `bug_report.json`*  
 
 ### 17. Save changes on web interface:  
 
-*-Press [Commit changes]*
+*-Press `Commit changes`*
 
 ### 18. On web interface change the file "bug_report.json" - add bug report in it using JSON format:
 
 *-Enter a file "bug_report.json" on web interface*  
-*-Press [Edit this file]*
+*-Press `Edit this file`*
 
 ```
 {
@@ -233,7 +233,7 @@ To github.com:artemlat/JSON.git
 ```
 ### 19. Save changes on web interface:
 
-*-Press [Commit changes]*
+*-Press `Commit changes`*
 
 ### 20. Synchronize external and local JSON repository:
 
@@ -260,14 +260,14 @@ Fast-forward
  ### 21. Create an external repository named "XML":
  
 *-Go to https://github.com/*  
-*-Press [New]*  
+*-Press `New`*  
 *-Input repository name "XML"*  
 *-Press on checkbox "Add a README file"*  
-*-Press [Create a repository]* 
+*-Press `Create a repository`* 
 
 ### 22. Clone the repository "JSON" to the local computer:
 
-*-Press [Code]*    
+*-Press `Code`*    
 *-Copy link git@github.com:artemlat/XML.git*  
 *-Go to the local directory where local repository must be placed*  
 *-Open Git Bash*
@@ -484,12 +484,12 @@ To github.com:artemlat/XML.git
 
 ### 35. Save changes on web interface:  
 
-*-Press [Commit changes]*
+*-Press `Commit changes`*
 
 ### 36. On web interface change the file "bug_report.xml" - add bug report in it using XML format:
 
 *-Enter a file "bug_report.xml" on web interface*  
-*-Press [Edit this file]*
+*-Press `Edit this file`*
 
 ```
 <bug_report>
@@ -511,7 +511,7 @@ To github.com:artemlat/XML.git
 
 ### 37. Save changes on web interface:
 
-*-Press [Commit changes]*
+*-Press `Commit changes`*
 
 ### 38. Synchronize external and local XML repository:
 
@@ -538,13 +538,13 @@ Fast-forward
 ### 39. Create an external repository named "TXT":
 
 *-Go to https://github.com/*  
-*-Press [New]*  
+*-Press `New`*  
 *-Input repository name "TXT"*  
 *-Press on checkbox "Add a README file"*  
-*-Press [Create a repository]*
+*-Press `Create a repository`*
 
 ### 40. Clone the repository "TXT" to the local computer:
-*-Press [Code]*
+*-Press `Code`*
 *-Copy link git@github.com:artemlat/TXT.git*
 *-Go to the local directory where local repository must be placed*
 *-Open Git Bash*
@@ -745,17 +745,17 @@ To github.com:artemlat/TXT.git
 ### 52. On web interface create a file "bug_report.txt":
 
 *-Go to web TXT repository*  
-*-Press [Add file], [Create new file]*  
+*-Press `Add file`, `Create new file`*  
 *-Input name of the file `bug_report.txt`*
 
 ### 53. Save changes on web interface:  
 
-*-Press [Commit changes]*
+*-Press `Commit changes`*
 
 ### 54. On web interface change the file "bug_report.txt" - add bug report in it using TXT format:
 
 *-Enter a file "bug_report.xml" on web interface*  
-*-Press [Edit this file]*
+*-Press `Edit this file`*
 
 ```
 bug_report
@@ -776,7 +776,7 @@ bug_report
 
 ### 55. Save changes on web interface:
 
-*-Press [Commit changes]*
+*-Press `Commit changes`*
 
 ### 56. Synchronize external and local XML repository:
 
