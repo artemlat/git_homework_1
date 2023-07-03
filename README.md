@@ -265,7 +265,7 @@ Fast-forward
 *-Press on checkbox "Add a README file"*  
 *-Press `Create a repository`* 
 
-### 22. Clone the repository "JSON" to the local computer:
+### 22. Clone the repository "XML" to the local computer:
 
 *-Press `Code`*    
 *-Copy link git@github.com:artemlat/XML.git*  
